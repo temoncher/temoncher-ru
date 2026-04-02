@@ -17,6 +17,17 @@ To build this application for production:
 npm run build
 ```
 
+### Vercel / Nitro
+
+This project is configured to deploy to Vercel through Nitro.
+
+```bash
+pnpm build
+pnpm start
+```
+
+The build emits Nitro output in `.output/`, which Vercel can use during deployment.
+
 ## Testing
 
 This project uses [Vitest](https://vitest.dev/) for testing. You can run the tests with:
